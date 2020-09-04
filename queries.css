@@ -1,0 +1,185 @@
+/* Big tablet 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .floating-bar { 
+        width: 400px;
+        height: 300px;
+        top: 10%;
+        left: 5%;
+        padding: 2.9rem 2.2rem ;
+    }
+
+    .section-1-primary-heading {
+
+        font-size: 3.5rem;
+        line-height: 5.7rem;
+    }
+    
+    .section-1-secondary-heading {
+        font-size: 2rem;
+        line-height: 1rem;
+
+    
+    }
+    
+    .schedule-button {
+        font-size: 1.5rem;
+        line-height: 0.2rem;
+        padding: 2rem;
+
+    }    
+}
+
+/* Small tablet to big tablet:m 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .section-1-primary-heading {
+        font: normal normal bold 2.5rem/2rem Open Sans;
+        }
+        .section-1-secondary-heading {
+        font: normal normal normal 1.5rem/2.4rem Open Sans;
+        }
+    }
+
+
+
+/* Small phones small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    .item {
+        font: normal normal 600 1.2rem/3rem open sans;
+            }
+
+            .rectangle6 {
+                padding: 1rem;
+            }
+
+    .rectangle9 {
+        width: 22rem; 
+    }
+
+    .list-item {
+        font: normal normal 600 1.8rem/2.9rem Open Sans;
+        padding: 1.5rem;
+
+    }
+
+    .floating-bar {
+        width: 328px;
+        height: 223px;
+
+    }
+
+    .section-1 {
+
+        background-position: right;
+
+    }
+
+    .section-1-primary-heading {
+        font: normal normal bold 2rem/2rem Open Sans;
+        }
+
+        .section-2-primary-heading {
+
+            text-align: center;
+        }
+
+}
+
+@media only screen and (max-width: 624px) {
+
+
+    .item {
+        font: normal normal 600 1rem/3rem open sans;
+    }
+
+    .list-item {
+        font: normal normal 600 1.4rem/2.9rem Open Sans;
+        padding: 1.5rem;
+    }
+
+    .floating-bar {
+        top: 40%;
+        left: 8%;
+    }
+
+    .title {
+        font: normal normal bold 1.5rem/3rem Open Sans;
+    }
+
+    .learn-more {
+        font: normal normal 600 1.5rem/2.4rem Open Sans;
+    }
+
+}
+    
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+
+    .item {
+        font: normal normal 600 1rem/1.5rem open sans;
+    }
+
+
+    .rectangle9 {
+        width: 23rem;
+    }
+
+    .rectangle6 {
+
+        flex-direction: column;
+    }
+
+    .navigation {
+        height: auto;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .section-1 {
+        background-position: right;
+    }
+
+    .floating-bar {
+        width: 250px;
+        height: 200px;
+            top: 46%;
+            left: 44%;
+    }
+
+    .section-1-primary-heading {
+        font-size: 1.5rem;
+        line-height: 2.7rem;
+    }
+
+    .section-1-secondary-heading {
+        font-size: 1.2rem;
+       line-height: 3.2rem;
+}
+
+
+.section-2-primary-heading {
+
+    font: normal normal bold 2.2rem/4rem Open Sans;
+    text-align: center;
+
+}
+
+
+.product-items {
+    flex-direction: column;
+
+}
+
+
+.product {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+}
